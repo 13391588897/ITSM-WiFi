@@ -1,0 +1,184 @@
+header {
+	margin: 40px 30px 80px 30px;
+	font-weight: bold;
+}
+button {
+	border-radius: 5px;
+	padding: 10px;
+}
+.logo {
+	width: 40px;
+	height: 40px;
+	vertical-align: middle;
+}
+.nav {
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	border-radius: 15px;
+	cursor:pointer;
+	display: block;
+	width: 270px;
+	height: 100px;
+	margin: 30px auto;
+	background-color: #CCFFFF;
+	outline: none;
+}
+.back {
+	float:right;
+	margin-right: 30px;
+	width: 20px;
+	height: 20px;
+	margin-top: 8px;
+}
+.first {
+	margin-top: 50px;
+}
+
+.explain {
+	width: 320px;
+	padding: 5px 10px;
+	margin: 20px auto;
+}
+.longexplain {
+	text-align: left!important;
+}
+.inputcss {
+	text-align: center;
+	color:red;
+	font-size: 22px;
+	display:  block;
+	width: 195px;
+	margin: 30px auto;
+	border: 1px solid #ccc;
+}
+.ifwifi {
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.center {
+	height: 160px;
+	line-height: 160px;
+	text-align:  center;
+}
+.center ul {
+	display:  inline-block;
+}
+.center ul li {
+	float: left;
+}
+.icon {
+	width: 60px;
+	height: 60px;
+	vertical-align: middle;
+}
+.ifconfirm {
+	/* width: 300px; */
+	/* margin: 0 auto; */
+	text-align:  center;
+}
+.ifconfirm button{
+    margin: 30px;
+    padding: 10px;
+    width: 100px;
+}
+.ifconfirm button.btnright {
+	width: 150px;
+	margin: 20px;
+}
+.ifconfirm ul{
+	
+}
+.ifconfirm ul li{
+	float: left;
+	background-color:  #ccc;
+	padding: 10px 10px;
+	margin: 0 5px;
+	border-radius: 5px;
+	cursor:pointer;
+}
+.ifconfirm ul li:hover{
+	background-color:  #bbb;
+}
+.mt100  {
+	 margin-top: 100px; 
+}
+.mlr3 {
+	margin: 0 3px;
+}
+.h160 {
+	height: 160px;
+}
+.wh120 {
+	width: 140px;
+	height: 140px;
+}
+.goitsm {
+	display: block;
+	margin: 0 auto;
+	width: 100px; 
+	height: 40px;
+}
+/*////////////////////////////////////////////*/
+@media only screen and (min-width: 680px) {
+	header {
+		font-size: 28px;
+	}
+	.logo {
+		width: 60px;
+		height: 60px;
+	}
+	.nav {
+		width: 400px;
+		height: 150px;
+		font-size: 28px;
+	}
+	.icon {
+		width: 100px;
+		height: 100px;
+	}
+	.back {
+		margin-top: 20px;
+	}
+	.explain {
+		width: 400px;
+	}
+	.ifconfirm button.btnright {
+		width: 250px;
+	}
+	.h160 {
+		height: 270px;
+	}
+	.ifwifi {
+        font-size: 28px;
+        margin-bottom: 50px;
+    }
+	.ifconfirm button {
+	    margin: 40px;
+	    padding: 10px;
+	    width: 220px;
+	    font-size: 28px;
+    }
+    .inputcss {
+    	font-size: 28px;
+    	width: 300px;
+    	height: 50px;
+        margin: 50px auto;
+    }
+    .longexplain {
+		padding: 5px 30px;
+	}
+    .goitsm {
+	    width: 200px;
+	    height: 50px;
+	    font-size: 22px;
+    }
+	.wh120 {
+		width: 250px;
+		height: 250px;
+	}
+	.mlr3 {
+		margin: 0 10px;
+	}
+}
